@@ -16,3 +16,4 @@ function fruitProcessor(apples, oranges) {
 }
 
 fruitProcessor(5,0);
+fruitProcessor(5,0);
