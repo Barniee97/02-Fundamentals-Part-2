@@ -75,19 +75,19 @@ console.log(age2);
 
 //function calling another function
 
-function cutFruitPieces(fruit) {
-    return fruit * 3;
-}
+// function cutFruitPieces(fruit) {
+//     return fruit * 3;
+// }
 
- function fruitProcessor(apples, oranges){
-    const applePieces = cutFruitPieces(apples);
-    const orangePieces = cutFruitPieces(oranges);
+//  function fruitProcessor(apples, oranges){
+//     const applePieces = cutFruitPieces(apples);
+//     const orangePieces = cutFruitPieces(oranges);
 
-    const juice = `Juice with ${applePieces} piece of apple and ${orangePieces} pieces of oranges.`;
-    return juice;   
-}
+//     const juice = `Juice with ${applePieces} piece of apple and ${orangePieces} pieces of oranges.`;
+//     return juice;   
+// }
 
-console.log(fruitProcessor(2, 3));
+// console.log(fruitProcessor(2, 3));
 
 
 
@@ -107,3 +107,80 @@ console.log(fruitProcessor(2, 3));
 // }
 
 // console.log(fruitProcessor(4, 5));
+
+
+//function declaration
+
+// function fruitProcessor (apples, oranges) {
+//     const juice = `Juice with ${apples} apples and ${oranges} oranges.`;
+//     return juice;
+// }
+
+// const appleJuice = fruitProcessor(5, 0);
+// console.log(appleJuice);
+
+// const appleOrangeJuice = fruitProcessor(2, 4);
+// console.log(appleOrangeJuice);
+
+/*
+// function declaration
+function calcAge1 (birthYear) {
+    const age = 2023 - birthYear;
+    return age;
+}
+
+const age1 = calcAge1(1997);
+
+
+//function expression
+const calcAge2 = function (birthYear) {
+    return 2023 - birthYear;
+}
+const age2 = calcAge2(1995);
+
+console.log(age1, age2);
+*/
+
+
+// //arrow function
+// const calcAge3 = birthYear => 2023 - birthYear;
+// const age3 = calcAge3(2000);
+// console.log(age2, age3);
+
+
+// const yearsUntilRetirement = (birthYear, firstName) => {
+//     const age = 2023 - birthYear;
+//     const retirement = 65 - age;
+//     // return retirement;
+//     return `${firstName} retires in ${retirement} years`;
+// }
+
+// console.log(yearsUntilRetirement(1968, "Arah"));
+// console.log(yearsUntilRetirement(2000, "Iye"));
+
+
+/*
+
+function cutFruitPieces (fruit) {
+    return fruit * 4;
+}
+
+function fruitProcessor (apples, oranges) {
+    const applePieces = cutFruitPieces(apples);
+    const orangePieces = cutFruitPieces(oranges);
+
+    const juice = `Juice with ${applePieces} pieces of apple and ${oranges} pieces of orange.`;
+    return juice;
+}
+
+console.log(fruitProcessor(2, 3));
+*/
+
+//function review
+
+const yearsUntilRetirement = function (birthYear, firstName) {
+    const age = 2023 - birthYear;
+    const retirement = 65 - age;
+    // return retirement;
+    return `${firstName} retires in ${retirement} years`;
+}
