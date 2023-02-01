@@ -177,7 +177,7 @@ console.log(fruitProcessor(2, 3));
 */
 
 //function review
-
+/*
 const calcAge = function (birthYear) {
     return 2037 - birthYear;
 }
@@ -196,3 +196,85 @@ const yearsUntilRetirement = function (birthYear, firstName) {
 }
 console.log(yearsUntilRetirement(1991, "Onuh"));
 console.log(yearsUntilRetirement(1950, "Buhari"));
+*/
+
+//Arrays
+
+/*
+const friend1 = "Chiwiem";
+const friend2 = "Daniel";
+const friend3 = "Iye";
+const friend4 = "Ojoka";
+
+const friends = ["Chiewiem", "Daniel", "Iye"];
+console.log(friends);
+
+
+// const years = new Array(1991, 1992, 1993, 1994);
+// console.log(years);
+
+
+console.log(friends[0]);
+console.log(friends[2]);
+
+
+//to get the legth of the array
+console.log(friends.length);
+
+//to get the last element of any array
+console.log(friends[friends.length -1]);
+
+//to replace element in the array
+friends[0] = "Mamamiyaa";
+console.log(friends);
+
+const firstName = "Chioma"
+const chioma = [firstName, "Augustine", 2023 - 1997, "Customer care rep", friends];
+console.log(chioma);
+console.log(chioma.length);
+
+
+const calcAge = function (birthYear) {
+    return 2023 - birthYear;
+}
+const years = [1998, 1967, 2002, 2018];
+const age1 = calcAge(years[0]);
+const age2 = calcAge(years[1]);
+const age3 = calcAge(years[years.length - 1]);
+console.log(age1, age2, age3);
+
+
+const ages = [calcAge(years[0]), calcAge(years[1]), calcAge(years[years.length - 1])];
+console.log(ages);
+
+*/
+
+/*
+//array methods
+
+//push - adds element to the end of the array
+const friends = ["Chiewiem", "Daniel", "Iye"];
+const newLength = friends.push("mamamiyaa");//to add an element and get the new length of the array
+console.log(friends);
+console.log(newLength);
+
+//unshift - adds element to the beginning of the array
+friends.unshift("Tata");
+console.log(friends);
+
+//pop - to remove the last element from an array
+friends.pop();
+friends.pop();
+console.log(friends);
+
+//shift - to remove element from the beginning of an array
+friends.shift();
+console.log(friends);
+
+//indexOf - tells us the position of an eelement in an array
+console.log(friends.indexOf("Chiewiem"));
+
+//includes - to check if the element is in the array
+console.log(friends.includes("Chiewiem"));
+
+*/
