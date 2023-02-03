@@ -317,3 +317,23 @@ GOOD LUCK
 
 
 
+// Object - a key for the values.
+
+const barniee = {
+    firstName: "Barniee",
+    lastName: "Arah",
+    age: 2023 - 1997,
+    job: "Frontend developer",
+    friends: ["Toph", "Chi", "Derik"]
+};
+
+//how to retrieve the data in an object
+console.log(barniee.age);
+console.log(barniee["age"]);
+
+const nameKey = "Name";
+console.log(barniee["first" + nameKey]);
+console.log(barniee["last" + nameKey]);
+
+const interestedIn = prompt("what do you want to know about Barniee? Choose between firstName, lastName, age, job, and friends");
+console.log(barniee[interestedIn]);
