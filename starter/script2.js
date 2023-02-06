@@ -326,14 +326,30 @@ const barniee = {
     job: "Frontend developer",
     friends: ["Toph", "Chi", "Derik"]
 };
+console.log(barniee);
+
 
 //how to retrieve the data in an object
-console.log(barniee.age);
+//1. Dot notation
+console.log(barniee.firstName);
+
+//2. Bracket Notation
 console.log(barniee["age"]);
 
 const nameKey = "Name";
-console.log(barniee["first" + nameKey]);
 console.log(barniee["last" + nameKey]);
+console.log(barniee["first" + nameKey]);
 
-const interestedIn = prompt("what do you want to know about Barniee? Choose between firstName, lastName, age, job, and friends");
-console.log(barniee[interestedIn]);
+const interestedIn = prompt("What do you want to know about Barniee? Choose between firstName, lastName, age, job, and friends");
+
+if(barniee[interestedIn]) {
+    console.log(barniee[interestedIn]);
+} else {
+    console.log("Wrong request! Choose between firstName, lastName, age, job, and friends")
+}
+
+//to add new properties to the object
+
+barniee.location = "Gbagada";
+barniee["Github"] = "barniee97";
+console.log(barniee);
