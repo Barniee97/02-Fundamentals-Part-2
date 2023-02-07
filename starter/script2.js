@@ -222,7 +222,7 @@ console.log(friends[2]);
 console.log(friends.length);
 
 //to get the last element of any array
-console.log(friends[friends.length -1]);
+console.log(friends[friends.length - 1]);
 
 //to replace element in the array
 friends[0] = "Mamamiyaa";
@@ -233,7 +233,7 @@ const chioma = [firstName, "Augustine", 2023 - 1997, "Customer care rep", friend
 console.log(chioma);
 console.log(chioma.length);
 
-
+// Exercise
 const calcAge = function (birthYear) {
     return 2023 - birthYear;
 }
