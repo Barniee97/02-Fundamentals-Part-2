@@ -101,7 +101,7 @@ checkWinner(scoreDolphins, scoreKoalas);
 /*
 Coding Challenge #2
 Steven is still building his tip calculator, using the same rules as before: Tip 15% of 
-the bill if the bill value is between 50 and 300, and if the value is different, the tip is 
+the bill if the bill value is between 50 and 300, and if the value is different, the tip is  
 20%.
 Your tasks:
 1. Write a function 'calcTip' that takes any bill value as an input and returns 
@@ -159,17 +159,17 @@ GOOD LUCK �
 */
 
 
-// const markMiller = {
-//     firstName: Mark,
-//     lastName: Miller,
-//     mass: 78,
-//     height: 1.69,
-//     calcBMI: function() {
-//         return this.mass / (this.height ** 2);
-//     }
-// }
+const markMiller = {
+    firstName: Mark,
+    lastName: Miller,
+    mass: 78,
+    height: 1.69,
+    calcBMI: function() {
+        return this.mass / (this.height ** 2);
+    }
+}
 const johnSmith = {
-    // firstName: john,
+    firstName: John,
     lastName: Smith,
     mass: 92,
     height: 1.95,
