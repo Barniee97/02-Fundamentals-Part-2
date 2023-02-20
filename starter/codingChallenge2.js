@@ -159,26 +159,26 @@ GOOD LUCK �
 */
 
 
-const markMiller = {
-    firstName: Mark,
-    lastName: Miller,
-    mass: 78,
-    height: 1.69,
-    calcBMI: function() {
-        return this.mass / (this.height ** 2);
-    }
-}
-const johnSmith = {
-    firstName: John,
-    lastName: Smith,
-    mass: 92,
-    height: 1.95,
-    calcBMI: function() {
-        return this.mass / (this.height ** 2);
-    }
-}
+// const markMiller = {
+//     firstName: Mark,
+//     lastName: Miller,
+//     mass: 78,
+//     height: 1.69,
+//     calcBMI: function() {
+//         return this.mass / (this.height ** 2);
+//     }
+// }
+// const johnSmith = {
+//     firstName: John,
+//     lastName: Smith,
+//     mass: 92,
+//     height: 1.95,
+//     calcBMI: function() {
+//         return this.mass / (this.height ** 2);
+//     }
+// }
 
-console.log(johnSmith.calcBMI());
+// console.log(johnSmith.calcBMI());
 
 
 
