@@ -319,7 +319,6 @@ GOOD LUCK
 
 // Object - a key for the values.
 
-/*
 const barniee = {
     firstName: "Barniee",
     lastName: "Arah",
@@ -358,42 +357,3 @@ barniee["Github"] = "barniee97";
 console.log(barniee);
 
 //challenge
-//Barniee has 3 friends, and his best friend is called Derik
-console.log(`${barniee.firstName} has ${barniee.friends.length} friends, and his bestfriend is called ${barniee.friends[2]}`);
-
-
-// const barniee = {
-//     firstName: "Barniee",
-//     lastName: "Arah",
-//     birthYear: 1997,
-//     job: "Frontend developer",
-//     friends: ["Toph", "Chi", "Derik"],
-//     hasDriversLicense: true,
-
-
-//     calcAge: function(birthYear) {
-//         return 2023 - birthYear;
-//     }
-// };
-
-//     calcAge: function() {
-//         //console.log(this);
-//         return 2023 - this.birthYear;
-//     }
-//     calcAge: function() {
-//         this.age = 2023 - this.birthYear;
-//         return this.age;
-//     },
-//     getSummary: function() {
-//         return `${this.firstName} is a ${this.calcAge()}-years old ${this.job}, and he has ${this.hasDriversLicense ? "a" : "no"} driver's license.`
-//     }
-
-// };
-
-// console.log(barniee.calcAge());
-
-// console.log(barniee.age);
-// console.log(barniee.age);
-// console.log(barniee.age);
-
-// console.log(barniee.getSummary());
