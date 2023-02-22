@@ -318,7 +318,7 @@ GOOD LUCK
 
 
 // Object - a key for the values.
-
+/*
 const barniee = {
     firstName: "Barniee",
     lastName: "Arah",
@@ -329,11 +329,11 @@ const barniee = {
 console.log(barniee);
 
 
-//how to retrieve the data in an object
-//1. Dot notation
+// how to retrieve the data in an object
+// 1. Dot notation
 console.log(barniee.firstName);
 
-//2. Bracket Notation
+// 2. Bracket Notation
 console.log(barniee["age"]);
 
 const nameKey = "Name";
@@ -347,7 +347,7 @@ const interestedIn = prompt("What do you want to know about Barniee? Choose betw
 if(barniee[interestedIn]) {
     console.log(barniee[interestedIn]);
 } else {
-    console.log("Wrong request! Choose between firstName, lastName, age, job, and friends")
+    console.log("Wrong request! Choose between firstName, lastName, age, job, and friends");
 }
 
 //to add new properties to the object
@@ -357,3 +357,37 @@ barniee["Github"] = "barniee97";
 console.log(barniee);
 
 //challenge
+//"Barniee has 3 friends, and his best friend is called Derik"
+
+console.log(`${barniee.firstName} has ${barniee.friends.length} friends, and his best friend is called ${barniee.friends[2]}`);
+
+
+*/
+
+const barniee = {
+    firstName: "Barniee",
+    lastName: "Arah",
+    birthYear: 1992,
+    job: "Frontend developer",
+    friends: ["Toph", "Chi", "Derik"],
+    hasDriversLicense: true,
+
+    // calcAge: function(birthYear) {
+    //     return 2023 - birthYear;
+    // }
+
+//     calcAge: function() {
+//         // console.log(this);
+//         return 2023 - this.birthYear;
+//     }
+
+    calcAge: function() {
+        this.age = 2023 - this.birthYear;
+        return this.age;
+    }
+};
+
+console.log(barniee.age);
+
+console.log(barniee.calcAge());
+
