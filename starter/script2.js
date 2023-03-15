@@ -363,7 +363,7 @@ console.log(`${barniee.firstName} has ${barniee.friends.length} friends, and his
 
 
 */
-/*
+
 const barniee = {
     firstName: "Barniee",
     lastName: "Arah",
@@ -385,13 +385,11 @@ const barniee = {
         this.age = 2023 - this.birthYear;
         return this.age;
     },
-//Barniee is a 26year old frontend developer, and he has a drivers licensce
+
 
     getSummary: function() {
-        return `${this.firstName} is a ${this.calcAge()}-year old ${this.job} and he has ${this.hasDriversLicense? "a":"no"} driver's license`;
+        return ``
     }
-
-    
 };
 
 
@@ -403,47 +401,4 @@ console.log(barniee.age);
 console.log(barniee.age);
 
 
-
-
-console.log(barniee.getSummary());
-*/
-
-
-//ITERATION: THE FOR LOOP
-
-// console.log("lifting weight repetition 1");
-// console.log("lifting weight repetition 2");
-// console.log("lifting weight repetition 3");
-// console.log("lifting weight repetition 4");
-// console.log("lifting weight repetition 5");
-// console.log("lifting weight repetition 6");
-// console.log("lifting weight repetition 7");
-// console.log("lifting weight repetition 8");
-// console.log("lifting weight repetition 9");
-// console.log("lifting weight repetition 10");
-
-
-//for loop keeps running while condition is TRUE
-// for(let rep = 1; rep <= 30; rep++) {
-//     console.log(`lifting weight repetition ${rep}`);  
-// }
-
-
-const barniee = [
-    "Barniee",
-    "Arah",
-    2023 - 1997,
-    "web-developer",
-    ["Derik", "Chioma", "Isreal"]
-];
-
-// console.log(barniee[0])
-// console.log(barniee[1])
-// console.log(barniee[2])
-// ...
-// console.log(barniee[4])
-// console.log(barniee[5]) does not exist
-
-for(let i = 0; i < ; i++) {
-    console.log(barniee[i]);
-}
+//Jonas is a 26year old frontend developer, and he has a drivers licensce
